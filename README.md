@@ -3,7 +3,7 @@ This is Project Repo for Deep Learning subject
 
 Team name: MedEnsemble
 Member 1:  Anar Abiyev, W19RIG
-Member 2:  Ramil
+Member 2:  Ramil Khalilli EV4EER
 
 Task Description:
 
