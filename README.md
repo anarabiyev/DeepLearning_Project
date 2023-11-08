@@ -17,3 +17,18 @@ This notebook describes how to derive image pixel values from .nii files. The no
 * Loading Dataset: .nii files are loaded from corresponding folder path to the colab environment with the help of "nibabel" and "numpy" libraries.
 * Visualization of Dataset: showing image - mask as pairs to express what the dataset looks like.
 * Preprocessing: as each file contains several images, each channel is separated as individual frame. Then zero padding and resizing are applied to the images.
+
+
+# DeepLearningProject_M2.ipynb
+
+This notebook represents trainging and testing phases of the model. 
+Prior to them, the prepared datasets are loaded as numpy arrays from drive folder. 
+
+<h2>UNet model</h2>
+As UNet is one of the mostly used model architectures for segmentation tasks, it has been used here. The encoder and decoder part are built using functions of tensorflow keras. 
+
+<h2>Evaluation</h2>
+During evaluation, both train and test sets have been predicted using model weights. 
+Firstly, the results have been randomly showen to check the predicted masks. 
+Then, Diec Coefficent score which is widely used for segmentation evaluation, has been calculated for sample in train and test sets. 
+The results are shown in histogram and in average.
