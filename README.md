@@ -11,9 +11,8 @@ In this project, you'll dive into the idea of using multiple models together, kn
 
 
 
-<h2>Milestone 1<h2>
+# DeepLearningProject_M1.ipynb
 
-  
 This notebook describes how to derive image pixel values from .nii files. The notebook consists of three parts:
 * Loading Dataset: .nii files are loaded from corresponding folder path to the colab environment with the help of "nibabel" and "numpy" libraries.
 * Visualization of Dataset: showing image - mask as pairs to express what the dataset looks like.
