@@ -18,7 +18,6 @@ This notebook describes how to derive image pixel values from .nii files. The no
 * Visualization of Dataset: showing image - mask as pairs to express what the dataset looks like.
 * Preprocessing: as each file contains several images, each channel is separated as individual frame. Then zero padding and resizing are applied to the images.
 
-
 # DeepLearningProject_M2.ipynb
 
 This notebook represents trainging and testing phases of the model. 
@@ -32,3 +31,11 @@ During evaluation, both train and test sets have been predicted using model weig
 Firstly, the results have been randomly showen to check the predicted masks. 
 Then, Diec Coefficent score which is widely used for segmentation evaluation, has been calculated for sample in train and test sets. 
 The results are shown in histogram and in average.
+
+# DataPreparation.ipynb
+
+This notebook is an additon to M1 notebook with the extra section for data augmentation. In order to increase the dataset size, the pictures have been rotated 90 degrees.
+
+# FinalSubmission.ipynb
+
+In this notebook, three different U-Net architectures have been trained and evaluated on the dataset. The results are shown with histogram. 
